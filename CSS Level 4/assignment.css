@@ -48,7 +48,8 @@
         width: 200px;
         height: 200px;
         background: pink;
-        opacity: 0.5;
+        opacity: 50%;
         background-image: url("img.jpg");
         background-position: center;
+        margin-top: 20px;
       }
