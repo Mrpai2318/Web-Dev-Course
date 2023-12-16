@@ -1,0 +1,37 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#static {
+    position: static;
+    background-color: greenyellow;
+    top: 100px;
+    left: 100px;
+}
+
+#relative {
+    position: relative;
+    background-color: greenyellow;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute {
+    position: absolute;
+    background-color: greenyellow;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    position: fixed;
+    background-color: greenyellow;
+    top: 100px;
+    left: 100px;
+}
