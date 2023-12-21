@@ -1,0 +1,40 @@
+h2{
+    color: #a45729;
+}
+
+span{
+    color: #a45729;
+}
+
+.card{
+
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h4{
+    color: aqua;
+    margin: 0 auto;
+}
+
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 100px) and (max-width: 768px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
